@@ -1,6 +1,9 @@
-import { Routes } from '@angular/router';
-import { Proyecto } from './components/proyecto/proyecto';
+// import { Routes } from '@angular/router';
 
-export const routes: Routes = [
-    {path: 'proyecto', component: Proyecto},
-];
+// export const routes: Routes = [
+    
+//     {
+//         path: 'proyecto',
+//         loadComponent: () => import('./components/proyecto/proyecto').then(m => m.Proyecto)
+//     }
+// ];
