@@ -1,2 +1,36 @@
-#proyectos {}
-.nombreProyecto{}
+#proyectos {
+    text-align: center;
+}
+.nombreProyecto{
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.subTitulo{ 
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.lenguaje{
+    margin-left: 120px;
+    font-size: 30px;
+}
+
+.descripcion{
+    margin-left: 150px;
+    font-size: 30px;
+}
+
+.estadoFinalizado{
+    text-align:center;
+    color: green;
+    font-size: 30px;
+}
+
+.estadoProceso {
+    text-align:center;
+    color: orange;
+    font-size: 30px;
+}
