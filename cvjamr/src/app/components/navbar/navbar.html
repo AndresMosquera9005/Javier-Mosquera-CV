@@ -1,9 +1,9 @@
 <p>navbar works!</p>
 
-<!-- <nav class="navbar">
-    <a href="#">Home</a>
-    <a routerLink="/proyecto">Proyecto</a>
-    <a href="#">Contact</a>
-</nav> -->
+<nav>
+    <a routerLink="/" routerLinkActive="active">Inicio</a>
+    <a routerLink="/ProyectoComponent" routerLinkActive="active">Proyecto</a>
+    <a [routerLink]="['/contacto']" routerLinkActive="active">Contactos</a>
+</nav>
 
-<app-header></app-header>
+<!-- <app-inicio></app-inicio> -->
