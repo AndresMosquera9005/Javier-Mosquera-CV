@@ -1,13 +1,13 @@
-import { CommonModule } from "@angular/common";
 import { Component } from "@angular/core";
-import { RouterLink, RouterOutlet } from "@angular/router";
+import { RouterOutlet } from "@angular/router";
+import { NavbarComponent } from "./components/navbar/navbar";
 
 
 
 @Component({
     selector: 'app-root',
     standalone: true,
-    imports: [RouterOutlet, CommonModule],
-    template: `<router-outlet></router-outlet>`,
+    imports: [RouterOutlet, NavbarComponent],
+    template: './app.component.html'
 })
 export class AppComponent {}
