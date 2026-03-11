@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+
+#tituloCorreo{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#numeroTelefonico{
+    font-size: 30px;
+    text-align: center;
+}
+
+#tituloRedes{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
